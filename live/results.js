@@ -30,7 +30,21 @@ const first_party_root_different = "https://test-pages.privacytests.org";
 const TRACKING_QUERY_PARAMETERS = {
   // https://github.com/brave/brave-browser/issues/4239
   "fbclid": "Facebook Click Identifier",
+  "fb_action_ids": "Facebook tracking parameter",
+  "fb_action_types": "Facebook tracking parameter",
+  "fb_source": "Facebook tracking parameter",
+  "fb_ref": "Facebook tracking parameter",
+  "action_object_map": "Facebook tracking parameter",
+  "action_type_map": "Facebook tracking parameter",
+  "action_ref_map": "Facebook tracking parameter",
   "gclid": "Google Click Identifier",
+  "ga_source": "Google Analytics tracking parameter",
+  "ga_medium": "Google Analytics tracking parameter",
+  "ga_term": "Google Analytics tracking parameter",
+  "ga_content": "Google Analytics tracking parameter",
+  "ga_campaign": "Google Analytics tracking parameter",
+  "ga_place": "Google Analytics tracking parameter",
+  "gs_l": "Google tracking parameter",
   "msclkid": "Microsoft Click ID",
   "mc_eid": "Mailchimp Email ID (email recipient's address)",
   // https://github.com/brave/brave-browser/issues/9879
